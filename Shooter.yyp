@@ -13,6 +13,7 @@
     {"id":{"name":"SlideTransition","path":"scripts/SlideTransition/SlideTransition.yy",},"order":0,},
     {"id":{"name":"sBullet","path":"sprites/sBullet/sBullet.yy",},"order":6,},
     {"id":{"name":"sTilesTemp","path":"sprites/sTilesTemp/sTilesTemp.yy",},"order":12,},
+    {"id":{"name":"ScreenShake","path":"scripts/ScreenShake/ScreenShake.yy",},"order":1,},
     {"id":{"name":"sEnemyD","path":"sprites/sEnemyD/sEnemyD.yy",},"order":10,},
     {"id":{"name":"sGun","path":"sprites/sGun/sGun.yy",},"order":5,},
     {"id":{"name":"oEnemy","path":"objects/oEnemy/oEnemy.yy",},"order":4,},

@@ -18,6 +18,7 @@
     {"id":{"name":"SlideTransition","path":"scripts/SlideTransition/SlideTransition.yy",},"order":0,},
     {"id":{"name":"sBullet","path":"sprites/sBullet/sBullet.yy",},"order":6,},
     {"id":{"name":"sTilesTemp","path":"sprites/sTilesTemp/sTilesTemp.yy",},"order":12,},
+    {"id":{"name":"rThree","path":"rooms/rThree/rThree.yy",},"order":3,},
     {"id":{"name":"ScreenShake","path":"scripts/ScreenShake/ScreenShake.yy",},"order":1,},
     {"id":{"name":"sEnemyD","path":"sprites/sEnemyD/sEnemyD.yy",},"order":10,},
     {"id":{"name":"sGun","path":"sprites/sGun/sGun.yy",},"order":5,},
@@ -53,6 +54,7 @@
     {"roomId":{"name":"rMenu","path":"rooms/rMenu/rMenu.yy",},},
     {"roomId":{"name":"rOne","path":"rooms/rOne/rOne.yy",},},
     {"roomId":{"name":"rTwo","path":"rooms/rTwo/rTwo.yy",},},
+    {"roomId":{"name":"rThree","path":"rooms/rThree/rThree.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},

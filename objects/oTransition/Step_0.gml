@@ -19,7 +19,7 @@ if (mode != TRANS_MODE.OFF) {
         break;
       }
       case TRANS_MODE.GOTO: {
-        mode = TRANS_MODE.OFF;
+        mode = TRANS_MODE.INTRO;
         room_goto(target);
         break;
       }

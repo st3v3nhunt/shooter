@@ -1,4 +1,5 @@
 /// @desc Die
+/*
 with (oGun) {
   instance_destroy(); // get rid of gun
 }
@@ -10,3 +11,4 @@ vsp = lengthdir_y(4, direction) - 2;
 if (sign(hsp) != 0) {
   image_xscale = sign(hsp);
 }
+*/

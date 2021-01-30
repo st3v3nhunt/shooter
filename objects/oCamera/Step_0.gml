@@ -4,6 +4,10 @@
 if (instance_exists(follow)) {
   xTo = follow.x;
   yTo = follow.y;
+  if (follow.object_index == oDead) {
+    x = xTo;
+    y = yTo;
+  }
 }
 
 // Update cam position

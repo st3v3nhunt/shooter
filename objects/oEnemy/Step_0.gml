@@ -2,6 +2,11 @@
 
 vsp = vsp + grv;
 
+// Prevent walking off edge
+if (grounded && afraid_of_heights && !place_meeting(x + hsp, y + 1, oWall)) {
+  hsp = -hsp;
+}
+
 // Check collision on x-axis
 if (place_meeting(x + hsp, y, oWall)) {
   while (!place_meeting(x + sign(hsp), y, oWall)) {
@@ -24,6 +29,7 @@ y = y + vsp;
 // Animation
 if (place_meeting(x, y + 1, oWall)) {
   // on floor
+  grounded = true;
   image_speed = 1; // animation speed for sprite
   if (hsp == 0) {
     sprite_index = sEnemy;
@@ -32,6 +38,7 @@ if (place_meeting(x, y + 1, oWall)) {
   }
 } else {
   // in air
+  grounded = false;
   sprite_index = sEnemyA;
   image_speed = 0; // do not animate sprite
   // moving downwards

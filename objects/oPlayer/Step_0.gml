@@ -16,11 +16,13 @@ if (has_control) {
 var move = key_right - key_left;
 hsp = move * walksp;
 vsp = vsp + grv;
+can_jump -= 1;
 
 // Check if on floor
 on_floor = place_meeting(x, y + 1, oWall);
-if (on_floor && key_jump) {
+if (key_jump && can_jump > 0) {
   vsp = -8;
+  can_jump = 0;
 }
 
 // Check collision on x-axis
@@ -41,8 +43,9 @@ if (place_meeting(x, y + vsp, oWall)) {
 }
 y = y + vsp;
 
-// Animation
+#region // Animation
 if (on_floor) {
+  can_jump = 10;
   if (sprite_index == sPlayerA) {
     audio_sound_pitch(snLanding, choose(0.8, 1.0, 1.2));
     audio_play_sound(snLanding, 3, false);
@@ -53,7 +56,6 @@ if (on_floor) {
   } else {
     sprite_index = sPlayerR;
   }
-  
 } else {
   // in air
   sprite_index = sPlayerA;
@@ -69,3 +71,4 @@ if (on_floor) {
 if (hsp != 0) {
   image_xscale = sign(hsp);
 }
+#endregion

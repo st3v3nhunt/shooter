@@ -1,4 +1,4 @@
-/// @description Insert description here
+/// @desc
 
 x = oPlayer.x - 3;
 y = oPlayer.y + 5;
@@ -12,6 +12,8 @@ if (mouse_check_button((mb_left)) && firing_delay < 0) {
   recoil = 4;
   firing_delay = 5;
   ScreenShake(2, 10);
+  audio_sound_pitch(snShot, choose(0.8, 1.0, 1.2));
+  audio_play_sound(snShot, 5, false);
   with (instance_create_layer(x, y, "Bullets", oBullet)) {
     speed = 25;
     direction = other.image_angle + random_range(-2, 2);

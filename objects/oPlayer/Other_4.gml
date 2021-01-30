@@ -1,4 +1,4 @@
-/// @desc ?
+/// @desc
 
 // Overwrite old save
 if (file_exists(SAVEFILE)) {

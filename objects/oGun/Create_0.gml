@@ -1,3 +1,3 @@
-/// @description Insert description here
+/// @desc
 firing_delay = 0;
 recoil = 0;

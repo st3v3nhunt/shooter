@@ -43,6 +43,10 @@ y = y + vsp;
 
 // Animation
 if (on_floor) {
+  if (sprite_index == sPlayerA) {
+    audio_sound_pitch(snLanding, choose(0.8, 1.0, 1.2));
+    audio_play_sound(snLanding, 3, false);
+  }
   image_speed = 1; // animation speed for sprite
   if (hsp == 0) {
     sprite_index = sPlayer;

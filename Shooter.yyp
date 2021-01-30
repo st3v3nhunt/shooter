@@ -35,6 +35,7 @@
     {"id":{"name":"sEnemy","path":"sprites/sEnemy/sEnemy.yy",},"order":9,},
     {"id":{"name":"sPlayerR","path":"sprites/sPlayerR/sPlayerR.yy",},"order":3,},
     {"id":{"name":"sEnemyR","path":"sprites/sEnemyR/sEnemyR.yy",},"order":7,},
+    {"id":{"name":"oEnemyBig","path":"objects/oEnemyBig/oEnemyBig.yy",},"order":10,},
     {"id":{"name":"sPlayerA","path":"sprites/sPlayerA/sPlayerA.yy",},"order":4,},
     {"id":{"name":"rOne","path":"rooms/rOne/rOne.yy",},"order":0,},
   ],

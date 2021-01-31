@@ -1,5 +1,4 @@
 {
-  "name": "tTilesTemp",
   "spriteId": {
     "name": "sTilesTemp",
     "path": "sprites/sTilesTemp/sTilesTemp.yy",
@@ -135,6 +134,7 @@
     "path": "folders/Tile Sets.yy",
   },
   "resourceVersion": "1.0",
+  "name": "tTilesTemp",
   "tags": [],
   "resourceType": "GMTileSet",
 }

@@ -11,6 +11,7 @@
     {"id":{"name":"snFoot2","path":"sounds/snFoot2/snFoot2.yy",},"order":1,},
     {"id":{"name":"oDust","path":"objects/oDust/oDust.yy",},"order":18,},
     {"id":{"name":"snShot","path":"sounds/snShot/snShot.yy",},"order":4,},
+    {"id":{"name":"oGame","path":"objects/oGame/oGame.yy",},"order":21,},
     {"id":{"name":"oCreate","path":"objects/oCreate/oCreate.yy",},"order":15,},
     {"id":{"name":"sTrees","path":"sprites/sTrees/sTrees.yy",},"order":14,},
     {"id":{"name":"rTwo","path":"rooms/rTwo/rTwo.yy",},"order":1,},

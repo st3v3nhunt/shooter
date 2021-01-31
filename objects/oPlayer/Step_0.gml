@@ -46,9 +46,14 @@ y = y + vsp;
 #region // Animation
 if (on_floor) {
   can_jump = 10;
-  if (sprite_index == sPlayerA) {
+  if (sprite_index == sPlayerA) { // just landed
     audio_sound_pitch(snLanding, choose(0.8, 1.0, 1.2));
     audio_play_sound(snLanding, 3, false);
+    repeat (5) { // create 5 dust
+      with (instance_create_layer(x, bbox_bottom, "Bullets", oDust)) {
+        vsp = 0;
+      }
+    }
   }
   image_speed = 1; // animation speed for sprite
   if (hsp == 0) {

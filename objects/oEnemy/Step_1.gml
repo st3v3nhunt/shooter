@@ -1,4 +1,4 @@
-/// @description Insert description here
+/// @description
 if (hp <= 0) {
   with (instance_create_layer(x, y, layer, oEnemyDead))
   {
@@ -12,5 +12,10 @@ if (hp <= 0) {
     
   }
   with (my_gun) instance_destroy();
+  if (instance_exists(oPlayer)) {
+    global.kills++;
+    global.kills_this_room++;
+    with (oGame) kill_text_scale = 2;
+  }
   instance_destroy();
 }

@@ -27,6 +27,7 @@
     {"id":{"name":"sCrate","path":"sprites/sCrate/sCrate.yy",},"order":25,},
     {"id":{"name":"fMenu","path":"fonts/fMenu/fMenu.yy",},"order":0,},
     {"id":{"name":"oDead","path":"objects/oDead/oDead.yy",},"order":11,},
+    {"id":{"name":"oEnding","path":"objects/oEnding/oEnding.yy",},"order":22,},
     {"id":{"name":"DrawSetText","path":"scripts/DrawSetText/DrawSetText.yy",},"order":2,},
     {"id":{"name":"sWall","path":"sprites/sWall/sWall.yy",},"order":1,},
     {"id":{"name":"sGroundMenu","path":"sprites/sGroundMenu/sGroundMenu.yy",},"order":16,},
@@ -50,6 +51,7 @@
     {"id":{"name":"sSign","path":"sprites/sSign/sSign.yy",},"order":19,},
     {"id":{"name":"oGunPickup","path":"objects/oGunPickup/oGunPickup.yy",},"order":14,},
     {"id":{"name":"oLevelEnd","path":"objects/oLevelEnd/oLevelEnd.yy",},"order":8,},
+    {"id":{"name":"rEnding","path":"rooms/rEnding/rEnding.yy",},"order":5,},
     {"id":{"name":"oMenu","path":"objects/oMenu/oMenu.yy",},"order":9,},
     {"id":{"name":"shWhite","path":"shaders/shWhite/shWhite.yy",},"order":0,},
     {"id":{"name":"snFoot4","path":"sounds/snFoot4/snFoot4.yy",},"order":3,},
@@ -89,6 +91,7 @@
     {"roomId":{"name":"rOne","path":"rooms/rOne/rOne.yy",},},
     {"roomId":{"name":"rTwo","path":"rooms/rTwo/rTwo.yy",},},
     {"roomId":{"name":"rThree","path":"rooms/rThree/rThree.yy",},},
+    {"roomId":{"name":"rEnding","path":"rooms/rEnding/rEnding.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},

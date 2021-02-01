@@ -27,10 +27,12 @@ shake_remain = max(0, shake_remain - ((1 / shake_length) * shake_magnitude));
 // Update camera view
 camera_set_view_pos(cam, x - view_w_half, y - view_h_half);
 
-if (layer_exists(mountain_layer_id)) {
-  layer_x(mountain_layer_id, x * 0.5);
-}
+if (room != rMenu && room != rEnding) {
+  if (layer_exists(mountain_layer_id)) {
+    layer_x(mountain_layer_id, x * 0.5);
+  }
 
-if (layer_exists(tree_layer_id)) {
-  layer_x(tree_layer_id, x * 0.25);
+  if (layer_exists(tree_layer_id)) {
+    layer_x(tree_layer_id, x * 0.25);
+  }
 }

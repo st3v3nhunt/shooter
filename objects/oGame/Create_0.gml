@@ -4,6 +4,7 @@
 #macro RES_H 768
 display_set_gui_size(RES_W, RES_H);
 
+global.has_gun = false;
 global.kills = 0;
 global.kills_this_room = 0;
 kill_text_scale = 1;

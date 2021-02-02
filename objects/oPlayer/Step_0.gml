@@ -14,8 +14,12 @@ if (has_control) {
 
 // Movement
 var move = key_right - key_left;
-hsp = move * walksp;
-vsp = vsp + grv;
+hsp = move * walksp + gun_kick_x;
+gun_kick_x = 0;
+
+vsp = vsp + grv + gun_kick_y;
+gun_kick_y = 0;
+
 can_jump -= 1;
 
 // Check if on floor

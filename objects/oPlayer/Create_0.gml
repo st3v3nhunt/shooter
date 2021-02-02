@@ -7,3 +7,6 @@ grv = 0.3;
 walksp = 8;
 has_control = true;
 can_jump = 0;
+
+gun_kick_x = 0;
+gun_kick_y = 0;

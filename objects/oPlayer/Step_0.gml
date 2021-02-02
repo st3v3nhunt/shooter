@@ -48,6 +48,11 @@ if (place_meeting(x, y + vsp, oWall)) {
 y = y + vsp;
 
 #region // Animation
+var aim_side = sign(mouse_x - x);
+
+if (aim_side != 0) {
+  image_xscale = aim_side;
+}
 if (on_floor) {
   can_jump = 10;
   if (sprite_index == sPlayerA) { // just landed
@@ -64,6 +69,9 @@ if (on_floor) {
     sprite_index = sPlayer;
   } else {
     sprite_index = sPlayerR;
+    if (aim_side != sign(hsp)) {
+      sprite_index = sPlayerRb;
+    }
   }
 } else {
   // in air
@@ -77,7 +85,4 @@ if (on_floor) {
   }
 }
 
-if (hsp != 0) {
-  image_xscale = sign(hsp);
-}
 #endregion
